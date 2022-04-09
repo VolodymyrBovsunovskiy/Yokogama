@@ -177,3 +177,7 @@ input:focus {
 input:invalid {
     border-color: red;
 }
+.noneAlco {
+    /* color: red; */
+    margin-left: 150px;
+}
