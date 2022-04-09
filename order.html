@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Йокогама: Замовлення столиків</title>
+    <link rel="stylesheet" href="CSS-Yoko/Style.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>Суші-бар <em>&laquo;Йокогама&raquo;</em></h1>
+    </header>
+    <!--<nav>
+        <div><a href="index.html">Головна</a></div>
+        <div><a href="sashimi.html">Сашимі</a></div>
+        <div><a href="sushi.html">Суші</a></div>
+        <div><a href="rolls.html">Ролли</a></div>
+        <div><a href="#" target="_blank">Прайс-лист</a></div>
+    </nav>-->
+    <main>
+        <form action="mailto:order@yokogama.ua" method="post" enctype="text/plain">
+            <p><label for="name">Як до вас звертатится?</label><br>
+                <input type="text" name="name" id="name" required autofocus></p>
+            <p><label for="phone">За яким номером телефону Вас можна набрати?</label><br>
+                <input type="number" name="phone" id="phone" required></p>
+            <p><label for="date">На яку дату ви хотіли б замовити столик?</label><br>
+                <input type="date" name="date" id="date" required></p>
+            <p><label for="time">На яку годину ви хотіли б замовити столик?</label><br>
+                <input type="time" name="time" id="time" required></p>
+            <fieldset>
+                <legend><strong>Вкажіть данні про Вас та Вашу компанію</strong></legend>
+                <p><label for="cnt">На скільки людей замовляється столик?</label><br>
+                    <input type="radio" name="cnt" id="cnt" value="1">1
+                    &nbsp; &nbsp; &nbsp;
+                    <input type="radio" name="cnt" id="cnt" value="2">2
+                    &nbsp; &nbsp; &nbsp;
+                    <input type="radio" name="cnt" id="cnt" value="more">3 та більше
+                    &nbsp; &nbsp; &nbsp;</p>
+                <p><input type="checkbox" name="children" value="*">Серед клієнтів будуть діти</p>
+            </fieldset>
+            <p><button type="submit">Відправити</button></p>
+        </form>
+      
+    </main>
+</body>

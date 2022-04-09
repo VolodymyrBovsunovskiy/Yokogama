@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Йокогама: Замовлення на виніс</title>
+    <link rel="stylesheet" href="CSS-Yoko/Style.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>Суші-бар <em>&laquo;Йокогама&raquo;</em></h1>
+    </header>
+    <!--<nav>
+        <div><a href="index.html">Головна</a></div>
+        <div><a href="sashimi.html">Сашимі</a></div>
+        <div><a href="sushi.html">Суші</a></div>
+        <div><a href="rolls.html">Ролли</a></div>
+        <div><a href="#" target="_blank">Прайс-лист</a></div>
+    </nav>-->
+    <main>
+        <form action="mailto:order@yokogama.ua" method="post" enctype="text/plain">
+            <p><label for="dishes">Що бажаєте замовити?</label><br>
+                <select name="dishes" id="dishes" size="6" multiple>
+                    <optgroup label="Сашимі">
+                        <option value="unagi">Унагі</option>
+                        <option value="hamachi">Хамачі</option>
+                    </optgroup>
+                    <optgroup label="Суші">
+                        <option value="chukka">Чукка</option>
+                        <option value="maguro">Магуро</option>
+                        <option value="tobiko">Тобико</option>
+                    </optgroup>
+                    <optgroup label="Ролли">
+                        <option value="kynsey battakon">Кунсей батакон</option>
+                        <option value="arrigato">Арригато</option>
+                        <option value="mexicano">Мексиканський</option>
+                    </optgroup>
+                </select></p>
+            <p><label for="phone">За яким номером телефону Вас можна набрати?</label><br>
+                <input type="number" name="phone" id="phone" required></p>
+            <p><button type="submit">Відправити</button></p>
+        </form>
+      
+    </main>
+
+
+
+
+
+</body>

@@ -1,0 +1,179 @@
+body {font-family: Arial;}
+@font-face {
+    font-family: "Caviar Dreams";
+    src: url(/Fonts/CaviarDreams.ttf);
+}
+@font-face {
+    font-family: "Caviar Dreams";
+    src: url(/Fonts/Caviar_Dreams_Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Caviar Dreams";
+    src: url(/Fonts/CaviarDreams_Italic.ttf);
+    font-style: italic;
+}
+@font-face {
+    font-family: "Caviar Dreams";
+    src: url(/Fonts/CaviarDreams_BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+table.catalog h3 {
+    font-family: "Caviar Dreams";
+    font-size: 20pt;
+}
+/*Це коментар*/
+header {
+    text-align: center;
+    }
+nav {
+    float: left;
+    width: 150px;
+    margin: 10px 30px 10px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 5px darkblue, 0px 0px 4px 5px yellow inset;
+}
+nav div {
+    font-size: 20pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+main {
+    text-align: justify;
+    }
+footer {
+    text-align: right;
+    }
+h1 {
+    font-family: verdana;
+    font-size: 32pt;
+    }
+p {
+    font-size: 14pt;
+    }
+em { 
+    color: red;
+    font-weight: normal;
+    }
+.picture img { 
+    width: 67%; 
+    min-width: 500px;
+    max-width: 700px;           
+}
+.greeting { font-size: 24pt;
+            font-weight: bold;
+    }
+.advertising { 
+    margin-left: 30pt;
+    margin-top: 12pt;
+    margin-bottom: 5pt;
+    }
+.bigger { font-size: 16pt;}
+table.pricelist th, table.pricelist td {
+    border: red thin solid;
+    padding: 4px;
+    }
+table.pricelist thead th {
+    color: white;
+    background-color: grey;
+    }
+table.catalog {border-collapse: collapse;}
+table.catalog td {
+    border-top: orange thin dotted;
+    border-bottom: orange thin dotted;
+    padding: 10px;
+}
+table.catalog img {width: 200px;}
+table.catalog tr:first-child td {
+    border-top: none;
+}
+table.catalog tr:last-child td {
+    border-bottom: none;
+}
+table.catalog td p:first-of-type::first-letter {
+    font-size: 24pt;
+}
+/* Вказуємо для виділенного тексту блакитний колір тексту та світло сірий колір фону */
+p::selection {
+    color: blue;
+    background-color: lightgray;
+}
+.pricelist_1 {
+    text-align: center;
+}
+#pricelist_2 {
+    background-color: lightgray;
+    border: none;
+}
+/* Коментарий контрол+/ */
+/* .proba { 
+    display: flex;
+    flex-direction: column-reverse;
+} */
+/* .qwerty { 
+    text-decoration: over;
+}  */
+table.catalog h3::after {
+    content: ":";
+}
+h1 {
+    font-size: 32pt;
+    font-family: Verdana;
+    text-shadow: 3pt 3pt 5pt darkred;
+}
+footer {
+    border-top: 2pt dotted red;
+}
+ol {
+    list-style-type: upper-roman;
+}
+nav a:link, nav a:visited {
+    color: darkred;
+    text-decoration: none;
+}
+nav a:active, nav a:hover {
+    color: darkblue;
+    text-decoration: none;
+}
+ form {
+    width: 400px;
+    padding: 0px 10px;
+    border: thin dotted darkgreen;
+    border-radius: 5px;
+ }  
+button {
+    font: bold 20pt Verdana;
+    text-transform: uppercase;
+    width: 250px;
+    border: thick solid green;
+    border-radius: 0px;
+}
+form input {
+    text-transform: uppercase;
+    border: thick double blue;
+    border-radius: 0px;
+}
+select {
+    text-transform: uppercase;
+    width: 250px; 
+    border: thick double blue;
+    border-radius: 0px;
+}
+fieldset {
+    border: thick double blue;
+    border-radius: 0px;
+}
+input:focus {
+    border-color: black;
+}
+/* input:required {
+    border-color: blue;
+} */
+/* input:valid {
+    border-color: green;
+} */
+input:invalid {
+    border-color: red;
+}
