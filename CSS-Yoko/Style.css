@@ -181,3 +181,6 @@ input:invalid {
     /* color: red; */
     margin-left: 150px;
 }
+main ul li ul {
+    color: red;
+}
